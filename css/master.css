@@ -113,4 +113,169 @@ section:nth-of-type(1){
   font-size: 3.7rem;
 }
 
+/************************************************/
+/*****************  SERVICES  *******************/
+/************************************************/
 
+section:nth-of-type(2){
+  background-color: black;
+  position: relative;
+  height: 800px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.image-background2{
+  position: absolute;
+  right: 52.09%;
+  bottom:0;
+  height: 800px;
+  width: 49.4%;
+  
+}
+
+#second > h3{
+  color: white;
+  text-transform: uppercase;
+  font-family: Poppins,sans-serif;
+  font-size: 36px;
+  letter-spacing: 1.5px;
+  margin-top: -30px;
+  margin-bottom: 40px;
+}
+
+.box_primary{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.box_secondary{
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: absolute;
+  
+}
+
+.card{
+    position: relative;
+    display: grid;
+    grid-template-columns: 280px;
+    grid-template-rows: 420px ;
+    grid-template-areas: "text";
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    transition: 0.5s ease;
+    cursor: pointer;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 35px;
+    border: 1px solid #00EA91;
+    border-spacing: 10%;
+    border-top: none;
+    border-bottom: none;
+}
+
+.card::after{
+  content: "";
+  width: 5.5rem;
+  height: 1px;
+  background-color: #00EA91;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-160%);
+}
+
+.card::before{
+  content: "";
+  width: 5.5rem;
+  height: 1px;
+  background-color: #00EA91;
+  position: absolute;
+  left: 50%;
+  transform: translateX(60%);
+}
+
+.card:hover{
+  background: rgba(0, 234, 145,0.4);
+  transition: 0.3s ease;
+}
+
+
+.card_text{
+  position: relative;
+  color: white;
+  font-family: sans-serif;
+}
+
+.card_text::after{
+  content: "";
+  width: 5.5rem;
+  height: 1px;
+  background-color: #00EA91;
+  position: absolute;
+  left: 43.8%;
+  top: 99.7%;
+  transform: translateX(80%);
+}
+
+.card_text::before{
+  content: "";
+  width: 5.5rem;
+  height: 1px;
+  background-color: #00EA91;
+  position: absolute;
+  left: 50%;
+  top: 99.7%;
+  transform: translateX(-159%);
+}
+
+.card_text > i{
+  margin-top: -35px;
+  font-size: 75px;
+}
+
+
+/************************************************/
+/*****************  GALERIA  ********************/
+/************************************************/
+
+section:nth-of-type(3){
+  background-color: black;
+  position: relative;
+  height: 930px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+#third > h3{
+  color: white;
+  text-transform: uppercase;
+  font-family: Poppins,sans-serif;
+  font-size: 36px;
+  letter-spacing: 1.5px;
+  margin-top: -30px;
+  margin-bottom: 40px;
+}
+
+#box-galeria{
+  background: #000;
+  height: 600px;
+  width: 88%;
+  margin-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box-img{
+  height: 200px;
+  width: 380px;
+  margin: 4px;
+  border: 1px solid #00EA91;
+  border-radius: 2px;
+}
